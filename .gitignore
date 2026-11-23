@@ -1,7 +1,14 @@
 ### IntelliJ IDEA ###
 out/
 !**/src/main/**/out/
-!**/src/test/**/out/
+.idea/
+*.iml
+
+# Maven
+target/
+
+# Compiled Java files
+*.class
 
 ### Eclipse ###
 .apt_generated
